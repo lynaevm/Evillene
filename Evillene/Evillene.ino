@@ -5,7 +5,7 @@
 #include <FastLED.h>
 
 
-#define LED_PIN     9    //led strand is soldered to pin 6
+#define LED_PIN     9    //led strand is soldered to pin                       
 #define NUM_LEDS    153   // number of LEDs in my strand
 #define COLOR_ORDER GRB
 
@@ -45,9 +45,6 @@ void loop()  {
 
 
 
-
-
-   
     //CircuitPlayground.clearPixels();
     ledMode = ledMode+1;
     ledMode = ledMode % NUM_MODES;
@@ -177,8 +174,6 @@ void State1() {
       }
     }
     FastLED.show();
-    // Note: We removed the delay here.
-    // All delays should be handled in the main loop() method.
 }
 
 // specific for Mode2
@@ -200,13 +195,13 @@ void State3()
   
   switch(color){
     case 0:
-      leds[index] = CRGB::Chartreuse; // Green
+      leds[index] = CRGB::Chartreuse; 
       break;
     case 1:
-      leds[index] = CRGB::Green; // Cyan
+      leds[index] = CRGB::Green; 
       break;
     case 2:
-      leds[index] = CRGB::Cyan; // Blue
+      leds[index] = CRGB::Cyan; 
       break; 
   }
   FastLED.show();
