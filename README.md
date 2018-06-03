@@ -7,7 +7,7 @@ There are 2 versions of this code.  Evillene 2 is the version that is currently 
 
 Note that both files in the folder are needed for the code to run, be sure to include the State 2.
 
-The lights have 4 different states and are controlled by the 2 buttons built into the board.  It loads in as case 99, the off position.  The left button cycles between State 1, 2, and 3 and the right button returns you to case 99 at any point.
+The lights have 4 different states and are controlled by the 2 buttons built into the board.  It loads in as case 99, the off position.  The left button cycles between State 1, 2, and 3 and the right button returns you to case 99 at any point.  There is a delay on the button.
 
 case99 is the "off" setting.  It was intended to be how it was set backstage when no animation was wanted.  3 neopixels on the board itself were lit up to help her find the correct button.  Three pixels on the strand also blink on and off on a slow delay.  These pixels were hidden under an opaque shrink wrap and meant to be hidden inside the skirt.  Their only purpose is to put the occasional power draw on the battery so it won't go into sleep mode.
 
@@ -18,6 +18,8 @@ State 2 is the animated setting for her song.  The colors in the faces morph bet
 State 3 is for the high point of her song.  It is simply 3 racing colorwipes going down each strand.  The neopixels on the board show green on one side as a status indicator, with blue pixels on the other side pointing towards the off button.
 
 This code ran perfectly on each strand independently when the common ground and data wires were alligator clipped to the board.  When I attempted to solder it to the board permanently, I got complete failure or terrible flickering. 
+
+A video of the code working, before some cosmetic changes: https://www.youtube.com/watch?v=Sa8eaupVUwc&t=10s
 
 Lights:
 
