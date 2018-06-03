@@ -30,11 +30,11 @@ This is the point where everything went wrong.  When I try to solder to the boar
 After assembly, the case needs to be passed to the outside of the skirt through the small slit on the upper right side so the button is accessable on the outside.  I was planning to tack the case for the battery pack to the inside of the skirt to hold it at the correct place in relation to the  board case.
 
 Things I've tried:
---Splitting the strands between 2 pins instead of running both off 1 pin.
---Adding a diode between power and the first light: lights ceased to work and the battery no longer stayed awake.
---Moving the common ground from the end of the light strip to the ground of the power source: problem seemed to be neither better nor worse.
---Remaking my power connectors: micrometer shows good power, didn't solve problem 
---Changing power to AA batteries in case: didn't help.
---Lighting up only 30 of the lights to see if the flickering was caused by lack of full amperage: flickering sometimes happens when only first 3 lights are on so doesnt' seem to be an amperage problem
---Soldering the wire to the board wrapped several times through the hole.  Soldering the wire to the board with just a single hook in the wire.  Filling in the hole with solder and then soldering on the wire flat.  Soldering to either top of bottom of the board.  Using fairly minimal solder and using a lot of solder. I would alligator each wire to the board and test it, then solder one wire and test again.  I never made it further than 1 wire attached before the terrible flickering started.  Tried with both 63/37 solder and 60/40 kester solder.
---Note that I have put new heat shrink tubing in places where I took apart my original connections and redid them but have not yet shrunk them, so that what is happening under them can be seen.
+Splitting the strands between 2 pins instead of running both off 1 pin.
+Adding a diode between power and the first light: lights ceased to work and the battery no longer stayed awake.
+Moving the common ground from the end of the light strip to the ground of the power source: problem seemed to be neither better nor worse.
+Remaking my power connectors: micrometer shows good power, didn't solve problem 
+Changing power to lipo battery: didn't help.
+Lighting up only 30 of the lights to see if the flickering was caused by lack of full amperage: flickering sometimes happens when only first 3 lights are on so doesnt' seem to be an amperage problem
+Soldering the wire to the board wrapped several times through the hole.  Soldering the wire to the board with just a single hook in the wire.  Filling in the hole with solder and then soldering on the wire flat.  Soldering to either top of bottom of the board.  Using fairly minimal solder and using a lot of solder. I would alligator each wire to the board and test it, then solder one wire and test again.  I never made it further than 1 wire attached before the terrible flickering started.  Tried with both 63/37 solder and 60/40 kester solder.
+Note that I have put new heat shrink tubing in places where I took apart my original connections and redid them but have not yet shrunk them, so that what is happening under them can be seen.
