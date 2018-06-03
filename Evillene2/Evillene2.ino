@@ -205,15 +205,15 @@ void State3()
   
   switch(color){
     case 0:
-      leds[index].setRGB( 0, 200, 0);
+      leds[index].setRGB( 0, 255, 0);
       //= CRGB::Chartreuse; // Green
       break;
     case 1:
-      leds[index].setRGB( 0, 200, 200);
+      leds[index].setRGB( 0, 255, 255);
       //= CRGB::Green; // Cyan
       break;
     case 2:
-      leds[index].setRGB( 0, 50, 200);
+      leds[index].setRGB( 0, 50, 255);
       //= CRGB::Cyan; // Blue
       break; 
   }
