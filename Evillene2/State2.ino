@@ -147,11 +147,11 @@ DEFINE_GRADIENT_PALETTE( es_emerald_dragon_08_gp ) {
 // Size: 20 bytes of program space.
 
 DEFINE_GRADIENT_PALETTE( Blue_Cyan_Yellow_gp ) {
-    0,   0,  0,200,
-   63,   0, 55,200,
-  127,   0,200,200,
-  191,  42,200, 45,
-  255, 200,200,  0};
+    0,   0,  0,255,
+   63,   0, 55,255,
+  127,   0,255,255,
+  191,  42,255, 45,
+  255, 255,255,  0};
 
 
   // Gradient palette "rainfall_gp", originally from
@@ -162,10 +162,10 @@ DEFINE_GRADIENT_PALETTE( Blue_Cyan_Yellow_gp ) {
 DEFINE_GRADIENT_PALETTE( rainfall_gp ) {
     0, 192,118,  3,
    36, 192,118,  3,
-   36, 200,118, 24,
-   72, 200,118, 24,
-   72, 200,189, 37,
-  109, 200,189, 37,
+   36, 255,118, 24,
+   72, 255,118, 24,
+   72, 255,189, 37,
+  109, 255,189, 37,
   109,  58,159, 43,
   145,  58,159, 43,
   145,   7,133, 52,
@@ -194,9 +194,9 @@ DEFINE_GRADIENT_PALETTE( summer_gp ) {
   170,  88,169, 0,
   186, 112,186, 0,
   204, 142,201, 0,
-  221, 175,200, 0,
+  221, 175,255, 0,
   237, 180,180, 0,
-  255, 200,200, 0};
+  255, 255,255, 0};
 
 // Gradient palette "es_emerald_dragon_12_gp", originally from
 // http://soliton.vm.bytemark.co.uk/pub/cpt-city/es/emerald_dragon/tn/es_emerald_dragon_12.png.index.html
@@ -206,8 +206,8 @@ DEFINE_GRADIENT_PALETTE( summer_gp ) {
 DEFINE_GRADIENT_PALETTE( es_emerald_dragon_12_gp ) {
     0,   1, 10,  1,
   153, 104,156,  7,
-  229, 200,200,138,
-  255, 200,200,158};
+  229, 255,255,138,
+  255, 255,255,158};
 
 
 // Single array of defined cpt-city color palettes.
