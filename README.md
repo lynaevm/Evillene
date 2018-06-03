@@ -21,10 +21,20 @@ This code ran perfectly on each strand independently when the common ground and 
 
 Lights:
 
-There are 2 identical strands of lights.  Nearly all are Adafruit brand Neopixels (WB2812b) at 60 lights per meter.  One segment is the Alitov brand from Amazon, but in my testing I had no compatability problems.  Each strand has 3--30--30--30--30--30. pixels for a total of 153.  They are connected in series with 22gauge stranded wire.  Eash strand is powered independently with 5 volts of power provided through a micro usb cable from a standard powerbank.  The usb feeds into a breakout board.  A 1000uf capaciter was placed between power and ground and then connected to the lights.  One of the strands has the common ground coming from the breakout board and the other has the common ground coming from the lights -- another troubleshooting attempt.
+There are 2 identical strands of lights.  Nearly all are Adafruit brand Neopixels (WB2812b) at 60 lights per meter.  One segment is the Alitov brand from Amazon, but in my testing I had no compatability problems.  Each strand has 3--30--30--30--30--30. pixels for a total of 153.  They are connected in series with 22gauge stranded wire.  Eash strand is powered independently through a micro usb cable from a standard powerbank which puts out 5v power at 2.4A.  The usb feeds into a breakout board.  A 1000uf capaciter was placed between power and ground and then connected to the lights.  One of the strands has the common ground coming from the breakout board and the other has the common ground coming from the lights -- another troubleshooting attempt.
 
 Theoretically, all that remains to do is thread the 2 ground and 2 data wires through the holes on the case, solder them to the board so that the wires can lay quite close to the back side, tuck the board into the case (there is a small felt padding on the side of the case opposite the opening and 2 more small pieces that go on top of the case so that the board is stable inside the case) put the lid on the case so that the 2 molded nubs hit the 2 buttons built into the board.  The lid does screw onto the case, but I found it worked better to snap the top on as opposed to try to twist it since it tends to catch on the buttons otherwise. The board itself is powered by a smallish lipo battery that I  planned on just taping to the back of the case. The lights on the board can shine through the white ring on the case.
 
 This is the point where everything went wrong.  When I try to solder to the board it all ceases to work.  Much troubleshooting and anguish ocurred here.
 
 After assembly, the case needs to be passed to the outside of the skirt through the small slit on the upper right side so the button is accessable on the outside.  I was planning to tack the case for the battery pack to the inside of the skirt to hold it at the correct place in relation to the  board case.
+
+Things I've tried:
+--Splitting the strands between 2 pins instead of running both off 1 pin.
+--Adding a diode between power and the first light: lights ceased to work and the battery no longer stayed awake.
+--Moving the common ground from the end of the light strip to the ground of the power source: problem seemed to be neither better nor worse.
+--Remaking my power connectors: micrometer shows good power, didn't solve problem 
+--Changing power to AA batteries in case: didn't help.
+--Lighting up only 30 of the lights to see if the flickering was caused by lack of full amperage: flickering sometimes happens when only first 3 lights are on so doesnt' seem to be an amperage problem
+--Soldering the wire to the board wrapped several times through the hole.  Soldering the wire to the board with just a single hook in the wire.  Filling in the hole with solder and then soldering on the wire flat.  Soldering to either top of bottom of the board.  Using fairly minimal solder and using a lot of solder. I would alligator each wire to the board and test it, then solder one wire and test again.  I never made it further than 1 wire attached before the terrible flickering started.  Tried with both 63/37 solder and 60/40 kester solder.
+--Note that I have put new heat shrink tubing in places where I took apart my original connections and redid them but have not yet shrunk them, so that what is happening under them can be seen.
